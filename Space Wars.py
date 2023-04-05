@@ -75,16 +75,16 @@ while operatingsystem != 1 and operatingsystem != 2 and operatingsystem != 3 :
 if operatingsystem == 1 :
                                  #LOCATION
     import winsound
-    playsound("/Users/aksharadinkar/Downloads/Music.mp3")
+    playsound("/Users/vedantdinkar/Downloads/Music.mp3")
 if operatingsystem == 2 :
     import subprocess
                                  #LOCATION
-    subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/Music.mp3"])
+    subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/Music.mp3"])
 
 if operatingsystem == 3 :
     import subprocess
                                  #LOCATION
-    subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/Music.mp3"])
+    subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/Music.mp3"])
        
 
 
@@ -202,19 +202,19 @@ gamelogo=turtle.Turtle()
 missile=turtle.Turtle()
 missile.hideturtle()
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/BOOM.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/BOOM.gif"))
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/SPACEWARS.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/SPACEWARS.gif"))
                              #LOCATION
-gamelogo.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/SPACEWARS.gif"))
+gamelogo.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/SPACEWARS.gif"))
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/Controls.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/Controls.gif"))
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/Missile.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/Missile.gif"))
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/SpaceShip.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/SpaceShip.gif"))
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/EnemyMissile.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/EnemyMissile.gif"))
 
 print("\n                                                                                                             Space Wars")
 
@@ -232,9 +232,9 @@ circle = turtle.Turtle()
 rct=turtle.Turtle()
 aim=turtle.Turtle()
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/Rocket.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/Rocket.gif"))
                              #LOCATION
-screen.addshape(os.path.expanduser("/Users/aksharadinkar/Downloads/Aim.gif"))
+screen.addshape(os.path.expanduser("/Users/vedantdinkar/Downloads/Aim.gif"))
 aim.hideturtle()
 aim.penup()
 aim.speed(10)
@@ -342,12 +342,12 @@ time.sleep(2)
 gamelogo.penup()
 gamelogo.hideturtle()
                              #LOCATION
-controls.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/Controls.gif"))
+controls.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/Controls.gif"))
 missile.penup()
                              #LOCATION
-missile.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/Missile.gif"))
+missile.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/Missile.gif"))
                              #LOCATION
-enemy.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/SpaceShip.gif"))
+enemy.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/SpaceShip.gif"))
 
 
 time.sleep(6)
@@ -357,7 +357,7 @@ controls.hideturtle()
 
 enboom=turtle.Turtle()
 enboom.hideturtle()
-enboom.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/BOOM.gif"))
+enboom.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/BOOM.gif"))
 enboom.penup()
 enboom.speed(0)
 
@@ -388,7 +388,7 @@ def timecounter():
 
 
                              #LOCATION
-screen.bgpic("/Users/aksharadinkar/Downloads/Space.gif")
+screen.bgpic("/Users/vedantdinkar/Downloads/Space.gif")
 
 
 
@@ -407,12 +407,12 @@ time.sleep(5)
 print("\nDEFEAT OPPONENTS TO INCREASE YOUR SCORE. EACH MISSILE COUNTS TO INCREASE IN DIFFICULTY.")
 time.sleep(5)
                              #LOCATION
-t.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/Rocket.gif"))
+t.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/Rocket.gif"))
 t.showturtle()
                              #LOCATION
-boom.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/BOOM.gif"))
+boom.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/BOOM.gif"))
                              #LOCATION
-enatk.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/EnemyMissile.gif"))
+enatk.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/EnemyMissile.gif"))
 
 
 
@@ -421,7 +421,7 @@ enatk.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/EnemyMissile.gif"
 
 
                              #LOCATION
-aim.shape(os.path.expanduser("/Users/aksharadinkar/Downloads/Aim.gif"))
+aim.shape(os.path.expanduser("/Users/vedantdinkar/Downloads/Aim.gif"))
 enatk.hideturtle()
 enatk.penup()
 rokthealth=turtle.Turtle()
@@ -835,27 +835,27 @@ def Gaana() :
         if operatingsystem == 1 :
             import winsound
                                      #LOCATION            
-            playsound("/Users/aksharadinkar/Downloads/GameMusic.mp3")
+            playsound("/Users/vedantdinkar/Downloads/GameMusic.mp3")
                                      #LOCATION            
-            playsound("/Users/aksharadinkar/Downloads/Pacman.mp3")
+            playsound("/Users/vedantdinkar/Downloads/Pacman.mp3")
                                      #LOCATION            
-            playsound("/Users/aksharadinkar/Downloads/Digimon.mp3")
+            playsound("/Users/vedantdinkar/Downloads/Digimon.mp3")
         if operatingsystem == 2 :
             import subprocess
                                      #LOCATION
-            subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/GameMusic.mp3"])
+            subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/GameMusic.mp3"])
                                      #LOCATION
-            subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/Pacman.mp3"])
+            subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/Pacman.mp3"])
                                      #LOCATION
-            subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/Digimon.mp3"])
+            subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/Digimon.mp3"])
         if operatingsystem == 3 :
             import subprocess
                                      #LOCATION
-            subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/GameMusic.mp3"])
+            subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/GameMusic.mp3"])
                                      #LOCATION
-            subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/Pacman.mp3"])
+            subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/Pacman.mp3"])
                                      #LOCATION
-            subprocess.call(["afplay", "/Users/aksharadinkar/Downloads/Digimon.mp3"])            
+            subprocess.call(["afplay", "/Users/vedantdinkar/Downloads/Digimon.mp3"])            
     
 p1=multiprocessing.Process(target=PlayerControls)
 p2=multiprocessing.Process(target=EnemyControls)
